@@ -7,9 +7,49 @@
     <link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
+    <!-- Header Start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container" href="index.html">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-primary block py-6">zhaaaar_</a>
+                </div>
+                <div class="flex items-center justify-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:static bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#client" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Client</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- Header End -->
     <div>
         <!-- Hero section start -->
-         <section id="home" class="pt-36">
+         <section id="#home" class="pt-36">
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full self-center px-4">
@@ -31,7 +71,7 @@
                     <div class="w-full px-4 mb-10 lg:w-1/2">
                         <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang saya</h4>
                         <h2 class="font-bold text-dark mb-5 max-w-xl text-4xl">Hallo</h2>
-                        <p class="text-secondary lg:text-4xl"> Saya Azhar Azmi Muzakki, seorang Network Engineer yang berfokus pada pengembangan teknologi dan kreativitas.</p>
+                        <p class="text-secondary lg:text-4xl"> Saya Azhar Azmi Muzakki, seorang Network Engineer yang berfokus pada pengembangan jaringan dan teknologi.</p>
                     </div>
                     <div class="w-full px-4 lg:w-1/2">
                         <h3 class="font-bold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
@@ -53,8 +93,51 @@
 
           </section>
          <!-- About section End -->
+        <!-- Portofolio Section Start -->
+<section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+    <div class="container">
+        <div class="w-full px-4 flex">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-bold uppercase text-primary text-lg mb-2">Portofolio</h4>
+                <h2 class="font-semibold text-primary text-4xl mb-4">Project Terbaru saya</h2>
+                <p class="font-medium text-md text-secondary">Project terbaru saya menghadirkan solusi jaringan inovatif yang menggabungkan kecepatan tinggi, keamanan terjamin, dan konektivitas tanpa batas, untuk mendukung pertumbuhan bisnis Anda secara optimal.</p>
+            </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center" href="portofolio.html">
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/server.JPG" alt="Landing Page" class="w-full h-auto object-cover object-center"> <!-- Gambar menyamping -->
+                    <div class="p-4">
+                        <h3 class="font-semibold text-dark text-lg mt-5 mb-2">Server</h3>
+                        <p class="text-secondary mb-5">Saya telah mengerjakan berbagai proyek yang mendukung efisiensi dan kinerja teknologi jaringan untuk klien di berbagai industri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full px-4 flex">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-bold uppercase text-primary text-lg  mb-2">Portofolio</h4>
+                <h2 class="font-semibold text-primary text-4xl mb-4">Arduino</h2>
+                <p class="font-medium text-md text-secondary">Mengembangkan mobil remote control menggunakan Arduino, memadukan teknologi mikrokontroler dengan desain inovatif untuk kontrol yang presisi dan performa maksimal.</p>
+            </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/2.jpeg" alt="Arduino" class="w-full h-auto object-cover object-center"> <!-- Gambar menyamping -->
+                    <div class="p-4">
+                        <h3 class="font-semibold text-dark text-lg mb-2">Remote Control Berbasis Arduino</h3>
+                        <p class="text-secondary ">Rasakan sensasi mengendalikan mobil remote control dengan teknologi Arduino! Desain inovatif dan kontrol presisi, memberikan pengalaman berkendara yang seru dan interaktif. Mulai perjalanan teknologi Anda sekarang!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portofolio Section End -->
+
         </div>
 
-        
+<script src="dist/js/script.js"> </script>
 </body>
 </html>
